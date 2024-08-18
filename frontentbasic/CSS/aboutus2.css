@@ -1,0 +1,84 @@
+/* 
+THERE are by default 4 color changing properties where present 
+hover 
+active 
+visit 
+link
+
+ */
+
+ /*  here we use pseudo class selector a:  */
+
+ /*link color :- by default it is blue and here we change it blue to white */
+
+
+a{
+    color:antiquewhite;
+}
+
+a:visited{
+    color:orange;
+}
+
+a:hover{
+    color: deepskyblue;
+}
+
+a:active{
+    color: yellow;
+
+}
+
+a{
+    text-decoration: none;/* this line removes the underline */
+    font-size: x-large;
+    /* display: inline; doesn't works over here*/
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.901);
+}
+
+ul{
+    list-style-type:none; /* used to remove the dots from li*/
+}
+
+.text li{
+
+    display: inline;/* ek line me karega links ko */
+    margin-left: 100px;/* it is a gap between the links */
+    
+}
+
+div.top{
+    background-color:brown;
+    width: 100%;
+    height: 30px;
+}
+
+.flex-g{
+    display: flex;/* ye line se flex row wise a jayegaa*/
+    gap: 20px;
+      
+    justify-content:left;
+    align-items:center;
+    /* background-color: aqua; */
+}
+
+.imgal{
+    width: 200px;
+    height:200px;
+    border-radius:100%;
+    border: 3px solid red;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imgal img{
+    width:100%;
+    height:100%;
+    border-radius:100%;
+
+
+}

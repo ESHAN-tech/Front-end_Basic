@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    
+}
+
+div.top{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color:orange;
+  
+}
+
+div.main{
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aquamarine;
+
+}
+
+
+div.flex-menu{
+
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-wrap:nowrap;
+        gap: 70px;
+                
+
+}
+.card{
+    width: 200px;
+    height:200px;
+    border: 3px solid whitesmoke;
+    border-radius: 100px;
+    background-color: aqua;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+
+}
+
+div.about {
+   width: 45%;
+   background-color: rgba(0, 255, 255, 0.284);
+   color: aliceblue;
+   height: 300px;
+}
+
+.col2 {
+     /* Align text to the left */
+    background-color: #444;  /* Added background color for contrast */
+    /* Added padding for spacing */
+    /*border-radius: 10px;*/  /* Added border radius for rounded corners */
+}
+
+.element {
+    margin-bottom: 10px;
+    text-decoration: none;  /* Added margin bottom for spacing between elements */
+}
+
+div.footer
+{
+    background-color: antiquewhite;
+}
+
+div.col
+{
+    display: flex;
+    flex-wrap:nowrap;
+    background-color: chocolate;
+    align-items: center;
+    justify-content: left;
+}
+
+.vdo video{
+    width: 20%;
+    height:20px;
+    border-radius: 100px;
+
+}
+
+footer{
+    width: 100% ;
+}

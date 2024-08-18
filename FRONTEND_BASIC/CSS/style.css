@@ -1,0 +1,36 @@
+body{
+    background-color:yellow;
+}
+/*: suedo class*/
+a{
+    text-decoration: none;/* to remove underline in link */
+    font-size: 20px;
+    font-family: cursive;
+}
+
+a:link{
+    color: black;/*for one propoerty don't need to put;*/
+}
+a:visited{
+    color:blueviolet
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+a:active{
+    color:coral;
+
+}
+
+ul.text{
+    
+    list-style-type: none;  
+}
+/*ul>li li ul ka child*/
+.text li {
+    display: inline;
+    margin-left: 50px;
+}
+

@@ -1,0 +1,38 @@
+body{ 
+    background-color: black;
+    margin: 0;
+    
+}
+
+.text{
+    margin-top: 0px;
+}
+ul.text{
+    /*used to remove the */
+   list-style-type: none;
+}
+a{
+    text-decoration: none;/* ye margin ko remove ker dega*/
+    font-size: 20px;
+}
+/* link , visit , hover , active */
+
+a:link{
+    color: white;
+}
+
+a:active{
+    color:blue;
+}
+
+a:hover{
+    color: black;
+
+}
+a:active{
+    color: dimgray;
+}
+.text li{
+    display: inline;
+    margin: 40px;
+}
